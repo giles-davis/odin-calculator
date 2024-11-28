@@ -71,7 +71,7 @@ body {
 }
 
 
-/* Common button properties */
+/* common button properties */
 .btn-red, .number, .arith, .equals {
     width: 51px;  
     height: 30px; 
@@ -90,7 +90,7 @@ body {
     transition: all 0.1s ease;
 }
 
-/* Individual button styles */
+/* individual button styles */
 .btn-red {
     background-color: #c82d2dda;
 }
@@ -108,7 +108,7 @@ body {
     background-color: #403b3b;
 }
 
-/* Button press */
+/* button press */
 .btn-red:active, .number:active, .arith:active, .equals:active {
     box-shadow: 
         inset 0 2px 3px #00000066,
@@ -116,4 +116,7 @@ body {
     transform: translateY(1px);
 }
 
-
+/* hover effect */
+.btn-red:hover, .number:hover, .arith:hover, .equals:hover {
+    filter: brightness(1.1);
+}
